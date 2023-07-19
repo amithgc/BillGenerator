@@ -1,0 +1,12 @@
+[
+  {
+    "text": "This is a test 1",
+    "locationX": 11,
+    "locationY": 11
+  },
+  {
+    "text": "This is a test 2",
+    "locationX": 50,
+    "locationY": 50
+  }
+]
