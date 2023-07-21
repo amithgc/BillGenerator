@@ -1,7 +1,7 @@
 
 # Bill Generator
 
-![Bill Generator](https://your-image-url.png/)
+![Bill Generator](https://blog.amithgc.com/post/images/bg.png)
 
 ## Overview
 
