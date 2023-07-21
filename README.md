@@ -180,8 +180,6 @@ public class RandomDiscountEnricher implements IEnricher {
 
 4.  Utilize the Custom Enricher: Once you've created your custom enricher, you can use it in your JSON data just like the built-in enrichers:
 
-jsonCopy code
-
 ```json
 {
   "text": "RandomDiscount",
