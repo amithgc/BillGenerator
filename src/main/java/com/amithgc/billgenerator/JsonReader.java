@@ -12,11 +12,10 @@ import java.util.List;
 public class JsonReader {
 
     public List<PDFFIllData> read(String fileName) {
-        String filePath = "./data/json/" + fileName;
 
         try {
             // Read the JSON file into a StringBuilder
-            BufferedReader br = new BufferedReader(new FileReader(filePath));
+            BufferedReader br = new BufferedReader(new FileReader(fileName));
             StringBuilder jsonContent = new StringBuilder();
             String line;
             while ((line = br.readLine()) != null) {
@@ -30,7 +29,7 @@ public class JsonReader {
 
             return new Gson().fromJson(jsonContent.toString(), listType);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Sorry, We are not able to open '" + fileName + "' Make sure the file exists.");
         }
         return null;
     }

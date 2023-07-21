@@ -1,12 +1,16 @@
 [
   {
-    "text": "This is a test 1",
+    "text": "This is a test 1 - green",
     "locationX": 11,
-    "locationY": 11
+    "locationY": 200,
+    "fontSize": 20,
+    "color" : "#4bf542"
   },
   {
-    "text": "This is a test 2",
+    "text": "This is a test 2 - red",
     "locationX": 50,
-    "locationY": 50
+    "locationY": 300,
+    "fontSize": 30,
+    "color" : "#f22e8d"
   }
 ]

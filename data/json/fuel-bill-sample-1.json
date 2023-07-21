@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Outer Ring Rd, Hosakerehalli Layout",
+    "locationX": 18,
+    "locationY": 310,
+    "fontSize": 9,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "text": "Bengaluru, Karnataka 560085",
+    "locationX": 35,
+    "locationY": 298,
+    "fontSize": 9,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "enricher": "RandomNumber",
+    "locationX": 125,
+    "locationY": 235,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "enricher": "DateToday",
+    "locationX": 125,
+    "locationY": 221,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "enricher": "TimeNow",
+    "locationX": 125,
+    "locationY": 207,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "text": "",
+    "locationX": 125,
+    "locationY": 193,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "text": "CASH",
+    "locationX": 125,
+    "locationY": 179,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "text": "Rs. 101.0",
+    "locationX": 125,
+    "locationY": 95,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "text": "11.0",
+    "locationX": 125,
+    "locationY": 81,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  },
+  {
+    "text": "Rs. 1111.0",
+    "locationX": 125,
+    "locationY": 67,
+    "fontSize": 11,
+    "color": "#222222",
+    "font": "VictorMono-Bold.ttf"
+  }
+]
