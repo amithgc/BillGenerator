@@ -110,11 +110,9 @@ This enricher will produce a random 10-digit number at the specified location on
 
 The `DateToday` enricher generates the current date in the desired format. You can use it to automatically add the current date to your bills. To use the `DateToday` enricher, you would modify your JSON data like this:
 
-jsonCopy code
-
 ```json
 {
-  "text": "DateToday",
+  "enricher": "DateToday",
   "locationX": 80,
   "locationY": 260,
   "fontSize": 11,
@@ -129,11 +127,9 @@ When processed, the `DateToday` enricher will insert the current date in the for
 
 The `TimeNow` enricher works similarly to the `DateToday` enricher, but it generates the current time. Here's an example of how to use it in your JSON data:
 
-jsonCopy code
-
 ```json
 {
-  "text": "Time: @TimeNow(HH:mm:ss)",
+  "enricher": "TimeNow",
   "locationX": 80,
   "locationY": 280,
   "fontSize": 11,
@@ -142,7 +138,7 @@ jsonCopy code
 }
 ``` 
 
-This will place the current time in the format "HH:mm:ss" on your bill.
+This will place the current time in the format "HH:mm a" on your bill.
 
 ### Creating Custom Enrichers
 
