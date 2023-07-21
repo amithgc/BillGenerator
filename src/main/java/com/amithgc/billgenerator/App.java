@@ -9,7 +9,7 @@ public class App {
         if (args.length != 6) {
             System.out.println("Usage: Please provide the options as follows:");
             System.out.println("-t <template_name> -j <json_input_file> -o <output_pdf_file>");
-            System.out.println("Example java -jar App.jar -t ./data/base-pdf/fuel-bill-sample-1.pdf -j ./data/json/fuel-bill-sample-1.json -o ./output/out.pdf");
+            System.out.println("Example: java -jar billGenerator.jar -t ./data/base-pdf/fuel-bill-sample-1.pdf -j ./data/json/fuel-bill-sample-1.json -o ./output/out.pdf");
             System.exit(0);
         }
 
